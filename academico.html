@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/></head>
+	<title>Curriculum</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+  <link rel="shortcut icon" type="image/jpg" href="img/students-cap_318-62709.jpg"> <!--Icono-->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+    		<div class="nav-wrapper amber darken-3"> <!--Color del header/navbar-->
+      			<a href="index.html" class="brand-logo">Curriculum Vitae</a>
+      			<a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      			<ul class="right hide-on-med-and-down">
+              <li><a href="index.html">Index</a></li>
+              <li><a href="academico.html">Académico</a></li>
+              <li><a href="laboral.html">Laboral</a></li>
+              <li><a href="extracurricular.html">Extracurricular</a></li>
+              <li><a href="contacto.html">Contacto</a></li>
+			     </ul>
+   			</div>
+  		</nav>
+  	</header>
+
+	  	<ul class="sidenav yellow lighten-4" id="mobile-demo"> <!--Color del sidenav o barra lateral-->
+        <li><a href="index.html">Index</a></li>
+        <li><a href="academico.html">Académico</a></li>
+        <li><a href="laboral.html">Laboral</a></li>
+        <li><a href="extracurricular.html">Extracurricular</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+	  	</ul>
+	</header>
+
+ <!--Inicio del contenido-->
+
+
+  <div class="container">     <!--Inicio de parallax-->
+    <div class="parallax-container">    <!--Primer imagen de parallax-->
+      <div class="parallax">
+        <img class="para1" src="img/betaarriba.png" alt="">
+      </div>
+    </div>
+    <div class="section white">
+      <div class="row container">
+        <h2 class="header">...:::  A C A D É M I C O  :::...</h2>
+        <p class="grey-text text-darken-3 lighten-3"></p>
+
+        <table role="table"> <!--Inicio de tabla-->
+          <thead role="rowgroup">
+            <tr role="row">
+              <th role="columnheader"></th>
+              <th role="columnheader">Institucion</th>
+              <th role="columnheader">Casa de estudios</th>
+              <th role="columnheader">Periodo</th>
+              <th role="columnheader">Nivel escolar</th>
+              <th role="columnheader">Campus</th>
+            </tr>
+          </thead>
+          <tbody role="rowgroup">
+            <tr role="row">
+              <td role="cell"><img src="img/unam.png" style="width: 9rem;"></td>
+              <td role="cell">Colegio de Ciencias y Humanidades</td>
+              <td role="cell">Universidad Nacional Autónoma de México</td>
+              <td role="cell">Ago 2006 - Jun 2009</td>
+              <td role="cell">Bachillerato </td>
+              <td role="cell">Plantel Azcapotzalco</td>
+            </tr>
+            <tr role="row">
+              <td role="cell"><img src="img/fca.png" style="width: 9rem;"></td>
+              <td role="cell">Facultad de Contaduría y Administración</td>
+              <td role="cell">Universidad Nacional Autónoma de México</td>
+              <td role="cell">Ago 20014 - Actualidad</td>
+              <td role="cell">Licenciatura en Informática</td>
+              <td role="cell">Ciudad Universitaria</td>
+            </tr>
+          </tbody>
+        </table>    <!--Fin de tabla-->
+
+      </div>
+    </div>
+    <div class="parallax-container">   <!--Segunda imagen de parallax--> 
+      <div class="parallax">
+        <img src="img/betaabajo.png" alt="">
+      </div>
+    </div>
+  </div>  <!--Fin de parallax-->
+
+
+  <!--Fin del contenido-->
+
+
+		<footer>
+		
+        <footer class="page-footer amber darken-3"> <!--Color del footer-->
+          <div class="container amber darken-3"> <!--Color del contenedor del footer, El diseño sera del mismo color que el footer-->
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Lic. Paola Meneses</h5>
+                <p class="grey-text text-lighten-4">Bienvenido a mi Curriculum Vitae</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Directorio</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="index.html">Index</a></li>
+                  <li><a class="grey-text text-lighten-3" href="academico.html">Académico</a></li>
+                  <li><a class="grey-text text-lighten-3" href="laboral.html">Laboral</a></li>
+                  <li><a class="grey-text text-lighten-3" href="extracurricular.html">Extracurricular</a></li>
+                  <li><a class="grey-text text-lighten-3" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2014 Paola Meneses
+            </div>
+          </div>
+        </footer>
+
+
+	</footer>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>		
+<!--Se uso un texto de la pag https://materializecss.com/navbar.html (Initialitation), se creo el archivo app.js
+se linkeo como se muestra arriba en script. Navbar saca el menu de navegacion del lado izquiero, es necesario que se haya
+establecido la navbar primero -->
+</html>
